@@ -1,6 +1,6 @@
-# :briefcase: Learning TSP Requires Rethinking Generalization
+# :briefcase: Learning TSP With Jumping Skip Connect and Attention GCN
 
-This repository contains code for the paper [**"Learning TSP Requires Rethinking Generalization"**](https://arxiv.org/abs/2006.07054) by Chaitanya K. Joshi, Quentin Cappart, Louis-Martin Rousseau, Thomas Laurent, accepted to the **27th International Conference on Principles and Practice of Constraint Programming** (CP 2021).
+This repository contains code for the paper [**"Learning TSP With Jumping Skip Connect and Attention GCN"**]([https://arxiv.org/abs/2006.07054](https://www.jstage.jst.go.jp/article/pjsai/JSAI2022/0/JSAI2022_4E3GS203/_article/-char/ja/)) by Nguyen Huu Bao Long, accepted to the **36th The Japanese Society for Artificial Intelligence** (JSAI2022).
 
 ## Overview
 
@@ -79,25 +79,3 @@ CUDA_VISIBLE_DEVICES=<available-gpu-ids> python eval.py data/tsp/tsp10-200_conco
     --width <1/128/1280>
 ```
 
-## Citation and Resources
-**Citation:**
-```
-@inproceedings{joshi2021learning,
-  title={Learning TSP Requires Rethinking Generalization},
-  author={Joshi, Chaitanya K and Cappart, Quentin and Rousseau, Louis-Martin and Laurent, Thomas},
-  booktitle={International Conference on Principles and Practice of Constraint Programming},
-  year={2021}
-}
-```
-
-**Resources:**
-- [ArXiv paper](https://arxiv.org/abs/2006.07054)
-- [Blog post on neural combinatorial optimization](http://chaitjo.github.io/neural-combinatorial-optimization/)
-- [TSP datasets generated with Concorde](https://drive.google.com/uc?id=152mpCze-v4d0m9kdsCeVkLdHFkjeDeF5)
-
-**Acknowledgement and Related Work:** Our codebase is a modified clone of [Wouter Kool's excellent repository](https://github.com/wouterkool/attention-learn-to-route) for the paper ["Attention, Learn to Solve Routing Problems!"](https://openreview.net/forum?id=ByxBFsRqYm), and incorporates ideas from the following papers, among others:
-- [W. Kool, H. van Hoof, and M. Welling. Attention, learn to solve routing problems! In International Conference on Learning Representations, 2019.](https://openreview.net/forum?id=ByxBFsRqYm)
-- [M. Deudon, P. Cournut, A. Lacoste, Y. Adulyasak, and L.-M. Rousseau. Learning heuristics for the tsp by policy gradient. In International Conference on the Integration of Constraint Programming, Artificial Intelligence, and Operations Research, pages 170–181. Springer, 2018.](https://link.springer.com/chapter/10.1007/978-3-319-93031-2_12)
-- [C. K. Joshi, T. Laurent, and X. Bresson. An efficient graph convolutional network technique for the travelling salesman problem. arXiv preprint arXiv:1906.01227, 2019.](https://arxiv.org/abs/1906.01227)
-- [A. Nowak, S. Villar, A. S. Bandeira, and J. Bruna. A note on learning algorithms for quadratic assignment with graph neural networks. arXiv preprint arXiv:1706.07450, 2017.](https://arxiv.org/abs/1706.07450v1)
-- [I. Bello, H. Pham, Q. V. Le, M. Norouzi, and S. Bengio. Neural combinatorial optimization with reinforcement learning. In International Conference on Learning Representations, 2017.](https://arxiv.org/abs/1611.09940)
