@@ -13,8 +13,6 @@ Our controlled experiments provide the first principled investigation into such 
 
 Towards a controlled study of **neural combinatorial optimization**, we unify several state-of-the-art architectures and learning paradigms into one experimental pipeline and provide the first principled investigation on zero-shot generalization to large instances.
 
-![End-to-end neural combinatorial optimization pipeline](/img/pipeline.png)
-
 1. **Problem Definition:** The combinatorial problem is formulated via a graph.
 2. **Graph Embedding:** Embeddings for each graph node areobtained using a Graph Neural Network encoder.
 3. **Solution Decoding:** Probabilities are assigned to each node for belonging to the solution set, either independent of one-another (i.e. Non-autoregressive decoding) or conditionally through graph traversal (i.e. Autoregressive decoding).
